@@ -1,0 +1,33 @@
+---
+const menu = ["HOME","ABOUT","SERVICE","HELP"]
+---
+
+<div id="contenedorAnclas">
+
+    <span class="material-symbols-outlined" id="barras">
+        menu
+    </span>
+
+    {
+        menu.map(Element=> <a>{Element}</a>)
+    }
+
+</div>
+
+<style>
+
+    #contenedorAnclas{
+        width:50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: white;
+        font-size: 25px;
+    }
+
+    #barras{
+        font-size: 35px;
+    }
+    
+</style>
