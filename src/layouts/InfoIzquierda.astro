@@ -1,9 +1,11 @@
 ---
-
+import TextoIzquierda from "../UI/TextoIzquierda.astro";
+import ContenedorBotones from "./ContenedorBotones.astro";
 ---
 
 <section>
-
+    <TextoIzquierda></TextoIzquierda>
+    <ContenedorBotones></ContenedorBotones>
 </section>
 
 <style>
@@ -11,7 +13,11 @@
     section{
         width: 50%;
         height: 100%;
-        background-color: blue;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
 </style>

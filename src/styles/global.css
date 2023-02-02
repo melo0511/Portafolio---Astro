@@ -9,9 +9,11 @@
 }
 
 body {
+
 	width: 100vw;
 	height: 100vh;
-	background-color: rgb(86, 86, 238);
+	background-image: url(../img/vecteezy_honeycomb-carbon-background_7620304.jpg);
+	background-size: cover;
 	color: #444;
 	display: flex;
 	justify-content:center;
